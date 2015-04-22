@@ -3,7 +3,7 @@
 Eventstore database
 --------------------------
 
-heavily copy-paste from adbrowne/eventstore dockerfile
+heavily inspired by adbrowne/eventstore dockerfile (like in copy-paste)
 
 run it like this docker run -d -p 2113:2113 -p 1113:1113 -v <host path>:/data/db <host path>:/data/logs mikaelkuhn/eventstore 
 
